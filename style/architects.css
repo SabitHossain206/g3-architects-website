@@ -15,6 +15,16 @@
 .display {
     display: flex;
 }
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    font-weight:500;
+    font-size: 1.2rem;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+
+}
 
 /* shared color */
 .dark-01{
@@ -55,4 +65,31 @@
 .nav-bar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+    text-align: center;
+}
+
+/* banner styles */
+.banner-content{
+   max-width: 860px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 50px;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 36px;
+
+}
+.banner-image{
+    width: 100%;
+}
+
+/* responsive media quary */
+@media screen and (max-width : 576px) {
+    
+    .nav-bar, .nav-links{
+        flex-direction: column;
+    }
 }
