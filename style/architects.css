@@ -25,6 +25,10 @@
     border: none;
 
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* shared color */
 .dark-01{
@@ -84,6 +88,77 @@
 }
 .banner-image{
     width: 100%;
+    margin-bottom: 45px;
+}
+
+/* main section style start here */
+.teams{
+    margin-top: 85px;
+    margin-left: 30px;
+    margin-bottom: 130px;
+    align-items: center;
+    gap: 73px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    max-width: 537px;
+    /* border: 2px solid tomato; */
+}
+.features-title{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+.features-description{
+    margin-top: 0;
+    font-size: 1rem;
+    margin-bottom: 32px;
+
+}
+
+/* enjoyable-features styles */
+.enjoyable-features{
+    gap: 150px;
+}
+#enjoyable-features-border{
+    border-left: 4px solid #FF900E;
+}
+.enjoyable-features-title{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.features-card{
+   margin-top: 20px;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+   
+}
+.card-title{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#experience-badge{
+    /* max-width: 260px; */
+    padding: 42px;
+    margin-top: -100px;
+    margin-left: -92px;
+
+}
+#badge-year{
+    font-weight: bold;
+    font-size: 4rem;
+}
+#badge-name{
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 /* responsive media quary */
